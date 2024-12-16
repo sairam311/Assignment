@@ -1,0 +1,52 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+env/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+include/
+.venv/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Test and coverage reports
+.coverage
+.coverage.*
+nosetests.xml
+test-coverage/
+*.log
+*.pot
+
+# IDE or editor folders (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# PyCharm project settings
+*.iml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# VSCode settings (optional, add if needed)
+.vscode/settings.json
+
+# .env file to ignore sensitive data
+.env
